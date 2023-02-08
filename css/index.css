@@ -432,8 +432,8 @@ button {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 25px;
+  right: 320px;
   z-index: 5;
   border: none;
   outline: none;
@@ -444,8 +444,10 @@ button {
   border-radius: 5px;
   font-size: 24px;
   scroll-behavior: smooth;
+  opacity: 0.8;
 }
 
 #myBtn:hover {
   background-color: var(--text-color-light-gray);
+  opacity: 0.5;
 }/*# sourceMappingURL=index.css.map */

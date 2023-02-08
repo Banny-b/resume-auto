@@ -1,11 +1,11 @@
 // Получить кнопку
 let mybutton = document.getElementById("myBtn");
 
-// Когда пользователь прокручивает документ на 200 пикселей вниз, показать кнопку
+// Когда пользователь прокручивает документ на 300 пикселей вниз, показать кнопку
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
