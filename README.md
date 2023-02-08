@@ -1,0 +1,2 @@
+# resume-auto
+resume autodiagnost
