@@ -1,0 +1,26 @@
+.about {
+    margin-bottom: 20px;
+    &__profession {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.15;
+        color: var(--text-color-black);
+        margin-bottom: 10px;} 
+    &__name{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 1.15;
+        color: var(--section-color);
+        margin-bottom: 10px;
+    }
+    &__discription {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 1.15;
+        color: var(--text-color-grey);
+        text-align: justify;
+    }
+}
