@@ -243,15 +243,10 @@ button {
   color: var(--section-color-gray);
   animation: flicker 3s infinite;
 }
-
-@keyframes flicker {
-  from {
-    color: var(--text-color-ginger);
-  }
-  to {
-    color: var(--section-color-gray);
-  }
+.details__more:hover {
+  color: var(--text-color-ginger);
 }
+
 .education-title {
   font-style: normal;
   font-weight: bold;

@@ -52,9 +52,12 @@
         line-height: 1.15;
         margin-bottom: 8px;
         color: var(--section-color-gray);
-        animation: flicker 3s infinite;
+        animation: flicker 3s infinite; 
+        &:hover{
+            color: var(--text-color-ginger);
+        }
 }
-@keyframes flicker {
-        from { color: var(--text-color-ginger); } 
-        to { color: var(--section-color-gray); }
-}
+// @keyframes flicker {
+//         from { color: var(--text-color-ginger); } 
+//         to { color: var(--section-color-gray); }
+// }
