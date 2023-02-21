@@ -6,7 +6,7 @@
     z-index: 5;
     border: none;
     outline: none;
-    background-color: var(--section-color);
+    background-color: var(--text-color-light-gray);
     color: white;
     cursor: pointer;
     padding: 10px 15px;
@@ -17,6 +17,6 @@
   }
   
   #myBtn:hover {
-    background-color: var(--text-color-light-gray);
-    opacity: 0.5;
+    background-color: var(--section-color);
+    opacity: 0.8;
   }
