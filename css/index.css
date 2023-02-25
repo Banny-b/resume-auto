@@ -67,7 +67,7 @@ button {
 .header__img {
   width: 24px;
   height: 14px;
-  border-radius: 3px;
+  border-radius: 2px;
   opacity: 0.4;
   transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -431,23 +431,23 @@ button {
   display: none;
   position: fixed;
   bottom: 25px;
-  right: 20px;
+  right: 28px;
   z-index: 5;
   border: none;
   outline: none;
   background-color: var(--text-color-light-gray);
   color: white;
   cursor: pointer;
-  padding: 10px 15px;
-  border-radius: 5px;
+  padding: 7px 10px;
+  border-radius: 3px;
   font-size: 24px;
   scroll-behavior: smooth;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 #myBtn:hover {
   background-color: var(--section-color);
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .bottom_block_download {
@@ -468,6 +468,7 @@ button {
   margin-right: 10px;
   margin-top: auto;
   margin-bottom: auto;
+  opacity: 0.8;
 }
 
 .resume_link {
@@ -482,9 +483,11 @@ button {
   margin-right: 15px;
   padding: 5px;
   border-radius: 3px;
+  opacity: 0.8;
 }
 
 .resume_link:hover {
   transform: scale(1.08);
   outline: 1px solid var(--text-color-white);
+  opacity: 1;
 }/*# sourceMappingURL=index.css.map */

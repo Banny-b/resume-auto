@@ -2,21 +2,21 @@
     display: none;
     position: fixed;
     bottom: 25px;
-    right: 20px;
+    right: 28px;
     z-index: 5;
     border: none;
     outline: none;
     background-color: var(--text-color-light-gray);
     color: white;
     cursor: pointer;
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 7px 10px;
+    border-radius: 3px;
     font-size: 24px;
     scroll-behavior: smooth;
-    opacity: 0.8;
+    opacity: 0.6;
   }
   
   #myBtn:hover {
     background-color: var(--section-color);
-    opacity: 0.8;
+    opacity: 1;
   }
