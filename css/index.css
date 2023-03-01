@@ -482,7 +482,6 @@ button {
   text-decoration: none;
   margin-right: 15px;
   padding: 5px;
-  border-radius: 3px;
   opacity: 0.8;
   transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -490,6 +489,7 @@ button {
 
 .resume_link:hover {
   transform: scale(1.08);
+  border-radius: 2px;
   outline: 1px solid var(--text-color-white);
   opacity: 1;
 }/*# sourceMappingURL=index.css.map */
