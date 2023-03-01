@@ -67,7 +67,7 @@ button {
 .header__img {
   width: 24px;
   height: 14px;
-  border-radius: 2px;
+  border-radius: 1px;
   opacity: 0.4;
   transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -332,7 +332,7 @@ button {
   width: 370px;
   height: 354px;
   margin: 0 auto;
-  border-radius: 5%;
+  border-radius: 2px;
   background-color: #d39999;
   transition-property: all;
   transition-duration: 500ms;
@@ -484,6 +484,8 @@ button {
   padding: 5px;
   border-radius: 3px;
   opacity: 0.8;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .resume_link:hover {
