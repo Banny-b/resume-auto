@@ -1,2 +1,2 @@
 # resume-auto
-resume autodiagnost
+Summary Autodiagnost
