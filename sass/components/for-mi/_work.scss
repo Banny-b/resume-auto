@@ -45,19 +45,21 @@
 }
 
 .details__more{
-        cursor: pointer;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 17px;
-        line-height: 1.15;
-        margin-bottom: 8px;
-        color: var(--section-color-gray);
-        animation: flicker 3s infinite; 
-        &:hover{
-            color: var(--text-color-ginger);
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.15;
+    margin-bottom: 8px;
+    color: var(--section-color-gray);
+    &:hover {
+        color: var(--text-color-black);
+        animation: blink 1.8s infinite;
+    }
+    
+    @keyframes blink {
+        50% {
+            opacity: 0;
         }
+    }
 }
-// @keyframes flicker {
-//         from { color: var(--text-color-ginger); } 
-//         to { color: var(--section-color-gray); }
-// }

@@ -10,10 +10,11 @@
     color: white;
     cursor: pointer;
     padding: 7px 10px;
-    border-radius: 3px;
+    border-radius: 2px;
     font-size: 24px;
     scroll-behavior: smooth;
-    opacity: 0.6;
+    opacity: 0.5;
+    transition-duration: 450ms;
   }
   
   #myBtn:hover {

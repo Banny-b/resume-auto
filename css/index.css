@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
@@ -107,6 +111,12 @@ button {
   line-height: 1.15;
   color: var(--text-color-black);
   margin-bottom: 10px;
+  animation: blink 2s infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
 .about__name {
   font-style: normal;
@@ -241,10 +251,15 @@ button {
   line-height: 1.15;
   margin-bottom: 8px;
   color: var(--section-color-gray);
-  animation: flicker 3s infinite;
 }
 .details__more:hover {
-  color: var(--text-color-ginger);
+  color: var(--text-color-black);
+  animation: blink 1.8s infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
 
 .education-title {
@@ -439,10 +454,11 @@ button {
   color: white;
   cursor: pointer;
   padding: 7px 10px;
-  border-radius: 3px;
+  border-radius: 2px;
   font-size: 24px;
   scroll-behavior: smooth;
-  opacity: 0.6;
+  opacity: 0.5;
+  transition-duration: 450ms;
 }
 
 #myBtn:hover {

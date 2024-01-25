@@ -6,7 +6,15 @@
         font-size: 20px;
         line-height: 1.15;
         color: var(--text-color-black);
-        margin-bottom: 10px;} 
+        margin-bottom: 10px;
+        animation: blink 2s infinite;
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+    } 
     &__name{
         font-style: normal;
         font-weight: bold;
@@ -24,3 +32,4 @@
         text-align: justify;
     }
 }
+
